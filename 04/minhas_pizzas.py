@@ -9,3 +9,17 @@ Exiba a mensagem As pizzas favoritas de meu amigo são:; em seguida, utilize
 um laço for para exibir a segunda lista. Certifique-se de que cada pizza
 nova esteja armazenada na lista apropriada.
 """
+
+pizzas = ["del mare", "atum", "marguerita"]
+friend_pizzas = pizzas[:]
+
+pizzas.append("abobrinha")
+friend_pizzas.append("pepperoni")
+
+print("Minhas pizzas favoritas são: ")
+for pizza in pizzas:
+    print(pizza.title())
+
+print("\nAs pizzas favoritas de meu amigo são: ")
+for pizza in friend_pizzas:
+    print(pizza.title())

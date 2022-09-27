@@ -8,3 +8,11 @@ diferentes. Acrescente um bloco de código que reescreva a tupla e, em
 seguida, use um laço for para exibir cada um dos itens do cardápio
 revisado.
 """
+
+buffet = ("Baião de Dois", "Macaxeira com Carne de Sol", "Cuscuz", "Tapioca", "Abará")
+for item in buffet:
+    print(item)
+
+buffet = ("Baião de Dois", "Acarajé", "Cuscuz", "Tapioca", "Pamonha com Queijo Coalho")
+for item in buffet:
+    print(item)

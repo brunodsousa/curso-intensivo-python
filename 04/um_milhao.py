@@ -3,6 +3,7 @@
 laço for para exibir os números. (Se a saída estiver demorando demais,
 interrompa pressionando CTRL-C ou feche a janela de saída.)
 """
+
 list_of_numbers = list(range(1, 1000001))
 
 for number in list_of_numbers:

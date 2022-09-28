@@ -5,7 +5,14 @@ uma saudação a cada usuário depois que eles fizerem login em um site.
 Percorra a lista com um laço e mostre uma saudação para cada usuário: • Se o
 nome do usuário for 'admin', mostre uma saudação especial, por exemplo, Olá
 admin, gostaria de ver um relatório de status?
-127
 • Caso contrário, mostre uma saudação genérica, como Olá Eric, obrigado por
 fazer login novamente.
 """
+
+users = ["bruno", "taiama", "admin", "molly"]
+
+for user in users:
+    if user == "admin":
+        print("Olá " + user + ", gostaria de ver um relatório de status?")
+    else:
+        print("Olá " + user.title() + ", obrigado por fazer login novamente.")

@@ -14,3 +14,12 @@ disponível.
 entre letras maiúsculas e minúsculas. Se 'John' foi usado, 'JOHN' não deverá
 ser aceito.
 """
+
+current_users = ["bruno", "taiama", "molly", "nena", "toninho", "ronaldinha", "baltazar"]
+new_users = ["rita", "daniela", "laura", "taiama", "bruno"]
+
+for user in new_users:
+    if user in current_users or user.title() in current_users or user.lower() in current_users or user.upper() in current_users:
+        print('O nome de usuário "' + user + '" já está sendo utilizado. Escolha outro nome.')
+    else:
+        print('O nome de usuário "' + user + '" está disponível.')
